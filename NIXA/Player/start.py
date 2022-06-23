@@ -69,27 +69,30 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/stats"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["السورس", "سورس"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/bf9f444677e4d565542a6.jpg",
-        caption=f"""هلا عمري انا اقوا بوت في التليكرام.""",
+        photo=f"https://telegra.ph/file/d6bd6f086e4d2e2cbb23b.jpg",
+        caption=f"""اهلا بك سورس كوبرا افضل السورسات على الاطلاق السورس مجاني يمكنك الانضمام الى قناة السورس لتنصيب بوتك الخاص او يمكنك كتابة المبرمج وتواصل مع المبرمج سيف كوبرا.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "🥇 قناة السورس 🥇", url=f"https://t.me/VFF35")
+                        
+                    InlineKeyboardButton(
+                        "🥇 قناة الشروحات 🥇", url=f"https://t.me/VFF34")
                 ]
             ]
         ),
     )
 
 
-@Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["المبرمج", "مبرمج"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/187646e964cd12329f1de.jpg",
-        caption=f"""لتنصيب بوت راسل مطور السورس""",
+        photo=f"https://telegra.ph/file/5dc2d9bcb1ff3adcb3313.jpg",
+        caption=f"""اهلا بك مبرمج السورس سيف كوبرا التوصل في الاسفل""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
