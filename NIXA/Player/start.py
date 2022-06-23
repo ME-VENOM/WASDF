@@ -73,15 +73,12 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/d6bd6f086e4d2e2cbb23b.jpg",
-        caption=f"""اهلا بك سورس كوبرا افضل السورسات على الاطلاق السورس مجاني يمكنك الانضمام الى قناة السورس لتنصيب بوتك الخاص او يمكنك كتابة المبرمج وتواصل مع المبرمج سيف كوبرا.""",
+        caption=f"""اهلا بك في سورس كوبرا افضل السورسات على الاطلاق التنصيبات مجانيه انضم للقناة لكي تنصب بوتك الخاص ام اكتب المبرمج لتنصيب مدفوع.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "🥇 قناة السورس 🥇", url=f"https://t.me/VFF35")
-                        
-                    InlineKeyboardButton(
-                        "🥇 قناة الشروحات 🥇", url=f"https://t.me/VFF34")
                 ]
             ]
         ),
@@ -92,7 +89,7 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/5dc2d9bcb1ff3adcb3313.jpg",
-        caption=f"""اهلا بك مبرمج السورس سيف كوبرا التوصل في الاسفل""",
+        caption=f"""اهلا بك يمكنك التواصل مع سيف كوبرا الان""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
