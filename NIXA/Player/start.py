@@ -36,9 +36,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"""**هلا عيوني 
-انا اقوا 🥇 بوت متطور مميزات متعددة.
-لتشغيل الاغاني في المكالمات الصوتية..
+        caption=f"""**لا اهلا ولا سهلا كتفمك.
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
