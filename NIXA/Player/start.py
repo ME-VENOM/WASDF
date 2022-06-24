@@ -49,10 +49,10 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🖥 ¦ الأوامــر", url=f"https://telegra.ph/%D8%B3%D9%88%D8%B1%D8%B3-%D9%83%D9%88%D8%A8%D8%B1%D8%A7-%D8%A7%D9%84%D8%A7%D9%81%D8%B6%D9%84-06-23"
+                        "🖥 ¦ الأوامــر", url=f"https://t.me/M_2_F"
                     ),
                     InlineKeyboardButton(
-                        "", url="https://t.me/Simple_Mundaa"
+                        "𖤽𝙑𝙀𝙉𝙊𝙈𖤽", url="https://t.me/S_K_B"
                     )
                 ],
                 [
@@ -73,12 +73,12 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/d6bd6f086e4d2e2cbb23b.jpg",
-        caption=f"""اهلا بك في سورس كوبرا افضل السورسات على الاطلاق التنصيبات مجانيه انضم للقناة لكي تنصب بوتك الخاص ام اكتب المبرمج لتنصيب مدفوع.""",
+        caption=f""" كسم الحياه""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🥇 قناة السورس 🥇", url=f"https://t.me/VFF35")
+                        "🥇 قناة السورس 🥇", url=f"https://t.me/S_K_B")
                 ]
             ]
         ),
@@ -89,12 +89,12 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/5dc2d9bcb1ff3adcb3313.jpg",
-        caption=f"""اهلا بك يمكنك التواصل مع سيف كوبرا الان""",
+        caption=f""" كسم حياتي""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝐒𝐈𝐅 𝐂𝐎𝐁𝐑𝐀️", url=f"https://t.me/QABNADLIB")
+                        "𖤽𝙑𝙀𝙉𝙊𝙈𖤽", url=f"https://t.me/S_K_B"
                 ]
             ]
         ),
